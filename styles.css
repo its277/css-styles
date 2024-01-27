@@ -1,0 +1,87 @@
+/* Reset some default margin and padding */
+body, h1, h2, p {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #000;
+    color: #7700ff;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+#netflixButton {
+    position: absolute;
+    top: 10%; /* Adjusted top value */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-style: italic;
+    color: #e74c3c;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#imgButton {
+    position: absolute;
+    top: 40%; /* Adjusted top value */
+    left: 10%;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-style: italic;
+    color: #e74c3c;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#pop {
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-style: oblique;
+    color: chartreuse;
+    background-color: cyan;
+    cursor: pointer;
+}
+
+/* Center the content in the section */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* Style the heading */
+h2 {
+    font-size: 2em;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+
+/* Style the paragraph */
+p {
+    position: absolute;
+    top: 70%;
+    left: 50;
+    font-size: 1.2em;
+}
